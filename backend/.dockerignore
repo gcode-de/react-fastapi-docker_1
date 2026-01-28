@@ -1,0 +1,39 @@
+# Python build / cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtualenvs / env
+venv/
+.env/
+.venv/
+env/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# Local database / logs
+*.sqlite3
+*.log
+
+# Secrets and local config
+.env
+.env.*
+
+# Git / misc
+.git
+.gitignore
+.DS_Store
+
+# Editors
+.vscode/
+.idea/
+
+# Node artifacts (if present)
+node_modules/
+npm-debug.log*
